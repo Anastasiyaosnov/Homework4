@@ -21,5 +21,5 @@ int value(int uservalue)
 }
 
 int uservalue1 = Promt("Введите число");
-int total = value (uservalue1);
-Console.WriteLine ($"Сумма цифр в числе {uservalue1} равна {total}");
+int total = value(uservalue1);
+Console.WriteLine($"Сумма цифр в числе {uservalue1} равна {total}");

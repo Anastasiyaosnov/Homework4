@@ -18,16 +18,16 @@ int[] array(int lenght, int num1, int num2)
     return first;
 }
 
-void PrintArray (int[] array1)
+void PrintArray(int[] array1)
 {
     int lenght1 = array1.Length;
-    for (int i = 0; i < lenght1;i++)
-    Console.Write ($"{array1[i]} ");
+    for (int i = 0; i < lenght1; i++)
+        Console.Write($"{array1[i]} ");
 }
 
-int userv1 = Promt ("Введите длину массива");
-int userv2 = Promt ("Введите минимальное значение элемента массива");
-int userv3 = Promt ("Введите максимальное значение элемента массива");
+int userv1 = Promt("Введите длину массива");
+int userv2 = Promt("Введите минимальное значение элемента массива");
+int userv3 = Promt("Введите максимальное значение элемента массива");
 
 int[] total = array(userv1, userv2, userv3);
 PrintArray(total);
